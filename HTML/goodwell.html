@@ -3,78 +3,26 @@
 <head>
 	<meta charset="UTF-8">
 	<title>MY SAMPLE HTML PAGE</title>
-	<style type="text/css">
-		.div {
-			text-align: center;
-		}
-		.img {
-			width: 1080px;
-		}
-		html:hover .img {
-			animation-name: img;
-			animation-delay: 500ms;
-			animation-duration: 1s;
-			animation-fill-mode: forwards;
-			margin-top: 0px;
-		}
-		@keyframes img {
-			to{
-				width: 300px;
-
-			}
-		}
-		.p {
-			font-size: 20px;
-			font-family: 微软雅黑;
-			text-shadow: 1px 1px 2px black;
-			opacity: 1;
-		}
-		html:hover .p {
-			font-family: 微软雅黑;
-			font-size: 15px;
-			animation-delay: 500ms;
-			animation-duration: 3s;
-			text-shadow: 1px 1px 2px #b0b0b0;
-			opacity: 1;
-		}
-		a {text-decoration: none;}
-		ul,li {
-			list-style: none;
-		}
-		.nav {
-			margin: 100px 0 0 300px;
-			border: 2px solid #CCC;
-			border-right: none;
-			overflow: hidden;
-			float: left;
-		}
-		.nav ul li {float: left;}
-		.nav ul li a {
-			width: 120px;
-			height: 40px;
-			text-align: center;
-			line-height: 40px;
-			display: block;
-			border-right: 2px solid #CCC;
-			background: #eee;
-			color: #666;
-		}
-		.nav ul li a:hover {
-			color: #f00;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="nav.css">
+	<link rel="stylesheet" type="text/css" href="div.css">
 </head>
 <body>
+	<div class="nav">
+		<ul style="list-style-type: none">
+			<li><a href="C:\Codes\git_repository\HTML\video_test.html">video</a></li>
+			<li><a href="C:\Codes\git_repository\HTML\audio_test.html">audio</a></li>
+			<li><a href="">photo</a></li>
+			<li><a href="">others</a></li>
+			<li><a href="">others</a></li>
+			<li><a href="">others</a></li>
+			<li><a href="">others</a></li>
+		</ul>
+	</div>
+	<br>
 	<div class="div">
 		<h1>This is an HTML Page</h1>
 		<img class="img" src="C:\Users\goodwell\Downloads\Video\photo2.jpg" alt="假面骑士">
 		<p class="p"><a href="C:\Codes\git_repository\HTML\video_audio_test.html">GOODWELL</a></p>
 	</div>
-	<ul class="nav">
-		<li>video</li>
-		<li>audio</li>
-		<li>photo</li>
-		<li>others</li>
-	</ul>
 </body>
 </html>
