@@ -3,37 +3,41 @@
 <head>
 	<meta charset="UTF-8">
 	<title>MY SAMPLE HTML PAGE</title>
-	<link rel="stylesheet" type="text/css" href="nav.css">
-	<link rel="stylesheet" type="text/css" href="div.css">
-	<link rel="stylesheet" type="text/css" href="box.css">
-	<script>
-		// h1 {
-		// text-shadow: 5px 5px 5px #FF0000;
-		// }
-		.form {
-
-		}
-	</script>
+	<link rel="stylesheet" type="text/css" href="CSS\nav.css">
+	<link rel="stylesheet" type="text/css" href="CSS\div.css">
+	<link rel="stylesheet" type="text/css" href="CSS\box.css">
+	<link rel="stylesheet" type="text/css" href="CSS\clock.css">
 </head>
 <body>
-	
+	<!-- 导航栏 -->
 	<div class="nav">
 		<ul style="list-style-type: none">
-			<li><a href="C:\Codes\git_repository\HTML\video_test.html">video</a></li>
-			<li><a href="C:\Codes\git_repository\HTML\audio_test.html">audio</a></li>
+			<li><a href="video\video_test.html">video</a></li>
+			<li><a href="audio\audio_test.html">audio</a></li>
 			<li><a href="">photo</a></li>
 			<li><a href="">others</a></li>
-			<li><a href="">others</a></li>
+			<li><a href="clock\clock_test.html">clock</a></li>
 			<li><a href="https:www.baidu.com">others</a></li>
 			<li><a href="https://www.bilibili.com/">others</a></li>
 		</ul>
 	</div>
 	<br>
+
+	<!-- 时钟 -->
+	<div class="clock">
+		<canvas id="clock" height="200px" width="200px"></canvas>
+	</div>
+	<script type="text/javascript" src="clock.js"></script>
+	<br>
+	
+	<!-- 假面骑士图片 -->
 	<div class="div">
 		<h1>This is an HTML Page</h1>
 		<img class="img" src="C:\Users\goodwell\Downloads\Video\photo2.jpg" alt="假面骑士">
 		<p class="p"><a href="C:\Codes\git_repository\moban2207\index.html" target="_blank">GOODWELL</a></p>
 	</div>
+	
+	<!-- 网页提交 -->
 	<div align="center">
 		<form action="/example/html5/demo_form.asp" method="get" class="form">
 			Webpage: <input type="url" list="url_list" name="link" />
@@ -45,7 +49,10 @@
 			<input type="submit" />
 		</form>
 	</div>
+	
+	<!-- 背景图片 -->
 	<div class="box">
 	</div>
+
 </body>
 </html>
