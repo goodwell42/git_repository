@@ -1,0 +1,15 @@
+body{
+	padding:0;
+	margin:0;
+	background:url(../photo/1.jpg) no-repeat 0px 0px;
+	background-size: cover;
+    background-position: 50% 50%;
+	background-attachment:fixed;
+}
+h1 {
+	text-align: center;
+	transform: rotateY(130deg);
+	-webkit-transform: rotateY(130deg);	/* Safari 和 Chrome */
+	-moz-transform: rotateY(130deg);	/* Firefox */
+	text-shadow: 5px 5px 5px #FF0000;
+}

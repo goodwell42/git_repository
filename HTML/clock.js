@@ -11,7 +11,8 @@ function drawBackground() {
 	ctx.beginPath();
 	ctx.lineWidth = 10 * rem;
 	ctx.arc(0, 0, r - ctx.lineWidth / 2, 0, 2*Math.PI, false);
-	ctx.stroke();
+	// ctx.stroke();圆框框
+	// ctx.fillStyle = '#fff';
 
 	var hourNumbers = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1, 2];
 	ctx.font = 18 * rem +'px Arial';
